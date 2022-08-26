@@ -26,10 +26,6 @@
 
 * As a DevOps and App developer, use IST (Intersight Service for Terraform) to enable existing containerized k8s services for Jaeger Distributed Tracing 
 
-This use case addresses the third flow in the diagram below: 
-
-![alt text](https://github.com/prathjan/images/blob/main/tomflow3.png?raw=true)
-
 ### Pre-requisites
 
 1. You will set up the k8s cluster to host the application containers. You will follow the directions in this Code Exchange entry to create a IKS (Intersight Kubernetes Service) k8s cluster:
