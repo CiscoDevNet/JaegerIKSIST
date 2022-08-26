@@ -20,13 +20,7 @@
 
         Generate Application load and view Trace data in Jaeger
 
-        Interfacing with AppDynamics Controller API for De-provisioning
-        
-            Step 10: Undeploy application services
-
-            Step 11: Undeploy AppDynamics Cluster Agent
-
-            Step 12: Deprovision k8s cluster
+        De provisioning Steps
 
 ### Use Case
 
