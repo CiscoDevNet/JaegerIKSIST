@@ -36,7 +36,7 @@ https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/intersight-tfb-
 
 3. Sign up for a TFCB (Terraform for Cloud Business) at https://app.terraform.io/. Log in and generate the User API Key. You will need this when you create the TF Cloud Target in Intersight.
 
-![alt text](https://github.com/prathjan/images/blob/main/repo.png?raw=true)
+![alt text](https://github.com/prathjan/images/blob/main/api.png?raw=true)
 
 ### Step 1: Intersight Target configuration for AppDynamics and on prem entities
 
