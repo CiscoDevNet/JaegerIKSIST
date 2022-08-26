@@ -6,21 +6,23 @@
 
         Pre provisioning Steps
 
-            Step 1: Intersight Target configuration for AppDynamics and on prem entities
+        Step 1: Intersight Target configuration for AppDynamics and on prem entities
 
-            Step 2: Setting up TFCB Workspaces
+        Step 2: Setting up TFCB Workspaces
 
-            Step 3: Share variables with a Global Workspace
+        Step 3: Share variables with a Global Workspace
 
-            Step 4: Prepping infrastructure & platform for application deployment
+        Step 4: Prepping for application deployment
 
-        Deploy Jaeger OpenTelemetry components
+        Step 5: Deploy Jaeger OpenTelemetry components
 
-        Instrumentation of TeaStore cloud native application with OpenTelemetry agents and Deployment
+        Step 6: Deploy the OTel instrumented cloud native app
 
-        Generate Application load and view Trace data in Jaeger
+        Step 7: Generate Application load 
 
-        De provisioning Steps
+        Step 8: View distributed tracing in Jaeger Obs Platform
+
+        Step 9: Undeploy applications and deprovision infrastructure
 
 ### Use Case
 
@@ -169,7 +171,7 @@ Execute TfIks-Jaeger workdpace to helm install the Jaeger Observability Platform
 
 ### Step 6: Deploy the OTel instrumented cloud native app
 
-Execute the TfIks-JApp TFCB workspace to deploy the OTel enabled app. This is confiured to send its traces to the Jaeger OTel collector.
+Execute the TfIks-JApp TFCB workspace to deploy the OTel enabled app. The example TeaStore application has been rebuilt with the OTel agent as in https://opentelemetry.io/docs/instrumentation/ . App is confiured to send its traces to the Jaeger OTel collector.
 
 View the application deployment status at:
 
@@ -196,7 +198,7 @@ View the distributed traces for the services at: http://<lb_ip>:16686
 ![alt text](https://github.com/prathjan/images/blob/main/jaeger.png?raw=true)
 
             
-### Undeploy applications and deprovision infrastructure
+### Step 9: Undeploy applications and deprovision infrastructure
 
 Destroy the TFCB workspaces in this order:
 
