@@ -1,4 +1,4 @@
-#  OpenTelemetry - OpenTelemetry Distributed Tracing with Jaeger Observability Platform for a containerized Multi Service Kubernetes Application leveraging Cisco Intersight Service for Terraform and Cisco Intersight Cloud Orchestrator
+#  OpenTelemetry Distributed Tracing with Jaeger Observability Platform leveraging Cisco Intersight Service for Terraform and Cisco Intersight Cloud Orchestrator
 ## Contents
         Use Case
 
