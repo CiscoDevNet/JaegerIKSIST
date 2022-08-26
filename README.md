@@ -24,7 +24,7 @@
 
 ### Use Case
 
-* As a DevOps and App developer, use IST (Intersight Service for Terraform) to enable existing containerized k8s services for Jaeger Distributed Tracing 
+* As a DevOps and App developer, use IST (Intersight Service for Terraform) to enable containerized k8s services for Jaeger Distributed Tracing 
 
 ### Pre-requisites
 
